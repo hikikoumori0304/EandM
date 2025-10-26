@@ -995,18 +995,21 @@ footer h4 {
 	position: relative;
 	overflow-x: hidden;
 	margin-bottom: 1vw;	/*下に空けるスペース。ボックス同士の隙間です。*/
+	background: rgba(0,0,0,0.6);
 }
 
 /*マウスオン用のアニメーション*/
-.list1::before {
-	content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;
-	background: rgba(0,0,0,0.6);		/*写真に重ねておく半透明の黒い色。0,0,0は黒のことで0.6は色が60%出た状態。*/
-	transition: transform 0.5s 0.1s;	/*アニメーションの速度（0.5秒）と待機時間（0.1秒）。*/
-}
-.list1:hover::before {
-	transform: translateX(100%);	/*マウスオンで半透明の黒を枠外へ出す。-100%にすると逆に移動します。*/
-}
+/*
+/*.list1::before {
+/*	content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;
+/*	background: rgba(0,0,0,0.6);		/*写真に重ねておく半透明の黒い色。0,0,0は黒のことで0.6は色が60%出た状態。*/
+/*	transition: transform 0.5s 0.1s;	/*アニメーションの速度（0.5秒）と待機時間（0.1秒）。*/
+/*}
 
+/*.list1:hover::before {
+/*	transform: translateX(100%);	/*マウスオンで半透明の黒を枠外へ出す。-100%にすると逆に移動します。*/
+/*}
+*/
 /*テキストブロック*/
 .list1 .text {
 	position: relative;z-index: 1;
