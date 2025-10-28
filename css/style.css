@@ -553,11 +553,11 @@ footer h4 {
 
 /*左側ボックスの背景*/
 .list-c2 .list.image1 {
-	background: url("../images/sample4.jpg") no-repeat center center / cover;
+	background: url("../images/contact_image.png") no-repeat center center / cover;
 }
 /*右側ボックスの背景*/
 .list-c2 .list.image2 {
-	background: url("../images/sample5.jpg") no-repeat center center / cover;
+	background: url("../images/shop_image.png") no-repeat center center / cover;
 }
 
 /*h4見出し*/
@@ -971,17 +971,17 @@ footer h4 {
 
 /*１枚目の写真*/
 .list1.image1 {
-	background: url("../images/1.jpg") no-repeat center center / cover;
+	background: url("../images/Business_01.jpg") no-repeat center center / cover;
 }
 
 /*２枚目の写真*/
 .list1.image2 {
-	background: url("../images/2.jpg") no-repeat center center / cover;
+	background: url("../images/Business_02.jpg") no-repeat center center / cover;
 }
 
 /*３枚目の写真*/
 .list1.image3 {
-	background: url("../images/3.jpg") no-repeat center center / cover;
+	background: url("../images/Business_03.jpg") no-repeat center center / cover;
 }
 
 /*４枚目の写真*/
